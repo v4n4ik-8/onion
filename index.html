@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя игра</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+    <div id="left-btn" style="
+      position: fixed;
+      left: 10px;
+      bottom: 20px;
+      width: 80px;
+      height: 80px;
+      background: rgba(0,0,0,0.3);
+      border-radius: 40px;
+      z-index: 1000;
+      touch-action: none;
+    ">◀</div>
+    
+    <div id="right-btn" style="
+      position: fixed;
+      right: 10px;
+      bottom: 20px;
+      width: 80px;
+      height: 80px;
+      background: rgba(0,0,0,0.3);
+      border-radius: 40px;
+      z-index: 1000;
+      touch-action: none;
+    ">▶</div>
+
+
+    <script src="main.js"></script>
+    <script src="onion.js"></script>
+    <script src="health.js"></script>
+    <script src="mobile.js"></script>
+</body>
+</html>
